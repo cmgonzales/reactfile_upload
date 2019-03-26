@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
   const types = [
     {id: 1, name: "samantha", color: "blue"},
     {id: 2, name: "allysa", color: "yellow"},
