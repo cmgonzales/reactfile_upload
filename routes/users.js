@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   const types = [
     {id: 1, name: "samantha", color: "blue"},
     {id: 2, name: "allysa", color: "yellow"},
-    {id: 3, name: "olivia", color: "orange"}
+    {id: 3, name: "olivia", color: "orang"}
   ]
   res.send(types)
 });
